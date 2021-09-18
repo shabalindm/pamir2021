@@ -1,0 +1,163 @@
+body	{ font-family: Arial, Helvetica, sans-serif; font-size: 10pt; max-width:1000px; margin: auto; line-height: 15pt; color: #000000; background-color: #ffffff; padding: 4pt; }
+h1	{ font-size: 16pt; padding-top: 15pt; line-height: 24pt; text-align: center; }
+h2	{ font-size: 14pt; padding-top: 15pt; line-height: 21pt; text-align: center; }
+h3	{ font-size: 12pt; line-height: 18pt; text-align: left; margin-top: 50px }
+h4	{ font-size: 11pt; line-height: 17pt; }
+p	{ text-align: justify; }
+sup	{ font-size: 8pt; line-height: 10pt;}
+sub	{ font-size: 8pt; }
+table	{ border: 1px solid #000000; border-collapse: collapse; border-spacing: 0px; }
+th, td	{ border: 1px solid #000000; padding: 5px; }
+
+hr	{ clear: both; color: black; background-color: black; border: 0; height: 1px; }
+
+
+
+.scroll		{ width: 1040px; overflow-x: scroll; margin-bottom: 4pt; margin: auto; }
+.scroll > a > img	{ margin-bottom: -4pt; }
+td.center	{ text-align: center; }
+p.center	{ text-align: center; }
+
+.day{
+    font-style: italic ;
+    font-weight: bold;
+    line-height: 300%;
+}
+.day-stat{
+    margin-left:  20px;
+    border: none;
+    border-collapse: collapse;
+}
+.day-stat table, .day-stat tr, .day-stat td, .day-stat th {
+    border: none;
+    text-align: left;
+}
+.day-stat td{
+    padding-right: 20px;
+}
+
+
+.collapsible{
+    display: block;
+    padding-top: 40px;
+}
+.photo-full{
+    margin: auto;
+    width: 90%;
+    padding-top: 10px;
+    text-align: center;
+}
+.photo-full-img{
+    max-width: 100%;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 1px solid #000000;
+}
+.photo-block {
+    text-align: center;
+}
+/* Style the Image Used to Trigger the Modal */
+.photo-icon-img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 90px;
+    margin: auto;
+}
+.photo-num {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background: white;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.photo{
+    position: relative;
+    display: inline-flex;
+    margin: 5px;
+    text-align: center;
+    min-width: 120px;
+    border: 1px dotted #bbbbbb;
+    border-radius: 5px;
+}
+
+
+.photo-icon-img:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+}
+
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#photo-modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+/*.modal-content, #modal-caption {*/
+/*    animation-name: zoom;*/
+/*    animation-duration: 0.6s;*/
+/*}*/
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
