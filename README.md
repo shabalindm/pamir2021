@@ -1,7 +1,8 @@
 # pamir2021
 
 Исходный код: https://github.com/shabalindm/pamir2021.git
-Просмотр в веб: 
+
+Просмотр в веб: https://shabalindm.github.io/pamir2021/
 
 ## Добавлениe фото
 
