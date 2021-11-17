@@ -4,6 +4,12 @@
 
 Просмотр в веб: https://shabalindm.github.io/pamir2021/
 
+Фокти Лизы, исходнки
+https://cloud.mail.ru/public/RnAZ/4MmtTF7fH
+
+сюда потихоньку гружу уже отобранные и обработанные 
+https://photos.app.goo.gl/MZuPpyA9hiGYt2PR9
+
 ## Добавлениe фото
 
    ```
