@@ -1,6 +1,6 @@
 cd ../..
-rm photo/1/*
-for file in DSC08925 DSC08970 DSC09182
+rm photo/7/*
+for file in DSC00972  DSC01077
 do
-  convert "photo_original/1/$file.JPG" -resize $p "photo/1/$file.JPG"
+  convert "photo_original/7/$file.JPG" -resize $p "photo/7/$file.JPG"
 done
