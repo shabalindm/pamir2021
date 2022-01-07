@@ -1,0 +1,6 @@
+cd ../..
+rm photo/14/*
+for file in DSC03181 DSC03196 DSC03232 DSC03237 DSC03245 DSC03255 DSC03317 DSC03336 DSC03360 DSC03425 DSC03614 DSC03653 DSC03672 DSC03722
+do
+ convert "photo_original/13/$file.JPG" -resize $p "photo/14/$file.JPG"
+done
