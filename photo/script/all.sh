@@ -13,8 +13,8 @@ export p
 #sh 10.sh
 #sh 11.sh
 #sh 12.sh
-sh 13.sh
-sh 14.sh
+#sh 13.sh
+#sh 14.sh
 sh 15.sh
 
 
