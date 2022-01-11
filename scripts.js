@@ -1,58 +1,65 @@
 initModal()
 const photoIndex = initPhotosFromIcons();
-initCollapsible(photoIndex);
+initCollapsiblePhotoAlbums(photoIndex);
 initPhotoRef(photoIndex)
+initCollapsible()
 
-function initCollapsible(photoIndex) {
+function initCollapsiblePhotoAlbums(photoIndex) {
     const colls = Array.from(document.getElementsByClassName("collapsible"));
     colls.forEach(
         coll => {
             const content = document.createElement("div");
+            content.style.display = "none";
+            coll.parentNode.insertBefore(content, coll.nextSibling);
+            const folders = coll.dataset["folder"].split(",");
+            folders.forEach((folder) => {
+                let photoList = photoIndex[folder]["list"];
+                let fromIndex = 0;
+                let toIndex = photoList.length;
+                const from = coll.dataset["from"];
+                if(from){
+                    let i = photoList.indexOf(from);
+                    if(i>0) {
+                        fromIndex = i;
+                    }
+
+                }
+                const to = coll.dataset["to"];
+                if(to){
+                    let i = photoList.indexOf(to);
+                    if(i>=0) {
+                        toIndex = i + 1;
+                    }
+                }
+                photoList.slice(fromIndex, toIndex).forEach((file) => {
+                    const data = photoIndex[folder][file];
+                    const photoTitle = "Фото " + data["num"] + ". " + data["name"];
+                    const photo = document.createElement("div");
+                    photo.className = "photo-full";
+                    content.appendChild(photo);
+                    const img = document.createElement("img");
+                    img.className = "photo-full-img"
+                    img.alt = photoTitle;
+                    img.src = data["url"];
+                    photo.appendChild(img);
+                    const title = document.createElement("div");
+                    title.innerHTML = photoTitle;
+                    photo.appendChild(title);
+
+                });
+            })
+
+        }
+    )
+}
+
+function initCollapsible(){
+    const colls = Array.from(document.getElementsByClassName("collapsible"));
+    colls.forEach(
+        coll => {
+            const content = coll.nextSibling
             coll.addEventListener("click", function (e) {
                 e.preventDefault()
-                if (!coll.getAttribute("inited")) {
-                    coll.parentNode.insertBefore(content, coll.nextSibling);
-                    const folders = coll.dataset["folder"].split(",");
-                    folders.forEach((folder) => {
-                        let photoList = photoIndex[folder]["list"];
-                        let fromIndex = 0;
-                        let toIndex = photoList.length;
-                        const from = coll.dataset["from"];
-                        if(from){
-                            let i = photoList.indexOf(from);
-                            if(i>0) {
-                                fromIndex = i;
-                            }
-
-                        }
-                        const to = coll.dataset["to"];
-                        if(to){
-                            let i = photoList.indexOf(to);
-                            if(i>=0) {
-                               toIndex = i + 1;
-                            }
-                        }
-                        photoList.slice(fromIndex, toIndex).forEach((file) => {
-                            const data = photoIndex[folder][file];
-                            const photoTitle = "Фото " + data["num"] + ". " + data["name"];
-                            const photo = document.createElement("div");
-                            photo.className = "photo-full";
-                            content.appendChild(photo);
-                            const img = document.createElement("img");
-                            img.className = "photo-full-img"
-                            img.alt = photoTitle;
-                            img.src = data["url"];
-                            photo.appendChild(img);
-                            const title = document.createElement("div");
-                            title.innerHTML = photoTitle;
-                            photo.appendChild(title);
-
-                        });
-                    })
-                    coll.setAttribute("inited", "true")
-                }
-
-
                 // this.classList.toggle("active");
 
                 if (content.style.display === "block") {
@@ -69,8 +76,9 @@ function initCollapsible(photoIndex) {
             })
         }
     )
-
 }
+
+
 
 function initPhotoRef(photoIndex) {
     const spans = Array.from(document.getElementsByClassName("photo-ref"));

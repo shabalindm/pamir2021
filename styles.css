@@ -84,9 +84,10 @@ p.center	{ text-align: center; }
     margin: 5px;
     text-align: center;
     min-width: 120px;
-    border: 1px dotted #bbbbbb;
+    /*border: 1px dotted #bbbbbb;*/
     border-radius: 5px;
 }
+
 
 
 .photo-icon-img:hover {opacity: 0.7;}
