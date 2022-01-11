@@ -83,14 +83,10 @@ function initPhotoRef(photoIndex) {
             let data = photoIndex[folder][file];
 
             const a = document.createElement("a");
-            a.href = "";
+            a.href = data["url"];
             a.innerHTML = "фото " + data["num"];
             span.appendChild(a);
-
-            a.addEventListener("click", function (e) {
-                e.preventDefault()
-                openPhotoModal(data);
-            })
+            a.setAttribute("onclick", "openPhotoModal(" + JSON.stringify(data)+"); return false");
         }
     )
 
@@ -138,16 +134,24 @@ function initPhotosFromIcons() {
         }
 
         let data = photoIndex[folder][file];
+        const a = document.createElement("a");
+        a.href = url;
         const img = document.createElement("img");
-        img.className = "photo-icon-img"
-        img.src = url.replace("photos/","photos/preview/");
+        img.className = "photo-icon-img";
+        img.src = url.replace("photos/","photo/preview/");
         img.title = data["name"];
-        photo.appendChild(img);
+        photo.appendChild(a);
+        a.appendChild(img);
         const div = document.createElement("div");
-        div.className = "photo-num"
-        div.innerHTML = data["num"]
+        div.className = "photo-num";
+        let num = data["num"];
+        div.innerHTML = num;
         photo.appendChild(div);
-        photo.onclick = () => openPhotoModal(data)
+
+        a.setAttribute("onclick", "openPhotoModal(" + JSON.stringify(data)+"); return false");
+
+        photo.removeAttribute("data-file");
+        photo.setAttribute("data-num",  num)
     });
     return photoIndex;
 }
