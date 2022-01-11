@@ -124,7 +124,6 @@ function initModal() {
  */
 function initPhotosFromIcons() {
    const photoIndex = []
-// Get the image and insert it inside the modalContainer - use its "alt" text as a caption
     Array.from(document.getElementsByClassName("photo")).forEach(photo => {
         let url = photo.dataset["file"];
         const parts = url.split("/");
