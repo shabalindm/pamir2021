@@ -6,7 +6,7 @@ do
   if [ $mysize -gt 10000000 ] #[$mysize -gt 10000000]
   then
       echo $file
-      convert $file -resize 15% file1=${file/jpg/JPG}
+      convert $file -resize 15% $file
   fi
 
   done
