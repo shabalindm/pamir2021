@@ -845,9 +845,8 @@
     <div class="photo" data-file="photo/6/DSC00758.JPG" data-name="Первая веревка, выход выше разлома"></div>
     <div class="photo" data-file="photo/6/DSC00777.JPG" data-name="Вторая веревка выше"></div>
 	<div class="photo" data-file="photo/6/DSC09420.JPG" data-name="Вид вниз на обход разлома и вторую станцию"></div>
-	<div class="photo" data-file="photo/6/DSC00784.JPG" data-name="Погода портится"></div>
-	<div class="photo" data-file="photo/6/DSC00777.JPG" data-name="Вторая веревка выше"></div>
-    <div class="photo" data-file="photo/6/DSC00795.JPG" data-name="Вид вниз"></div>
+	<div class="photo" data-file="photo/6/DSC00784.JPG" data-name="Погода периодически портится"></div>
+	<div class="photo" data-file="photo/6/DSC00795.JPG" data-name="Вид вниз"></div>
 	<div class="photo" data-file="photo/6/DSC00799.JPG" data-name="Еще выше"></div>
 	<div class="photo" data-file="photo/6/DSC00822.JPG" data-name="Перевал все ближе"></div>
 	<div class="photo" data-file="photo/6/DSC00853.JPG" data-name="Наверху снега все больше. Приходится много тропить"></div>
@@ -868,7 +867,7 @@
 </p>
 <div class="photo-block">
     <div class="photo" data-file="photo/7/DSC09490.JPG" data-name="Лагерь, перевал и пик Скобелева"></div>
-	<div class="photo" data-file="photo/7/DSC09519.JPG" data-name="Лагерь утром и отличные виды"></div>
+	<div class="photo" data-file="photo/7/DSC09519.jpg" data-name="Лагерь утром и отличные виды"></div>
 	<div class="photo" data-file="photo/7/DSC09565.JPG" data-name="Пик Скобелева Вост. с пер. Седло Скобелева"></div>
 	<div class="photo" data-file="photo/7/DSC01049.JPG" data-name="Седловина пер. Седло Скобелева и место для фото и оставления рюкзаков"></div>
     <div class="photo" data-file="photo/7/DSC01078.JPG" data-name="Группа на пер. седло Скобелева"></div>
@@ -904,7 +903,7 @@
 	<div class="photo" data-file="photo/7/DSC01262.JPG" data-name="Путь по моренным валам"></div>
 	<div class="photo" data-file="photo/7/DSC01275.JPG" data-name="Двигаемся по руслу ручья"></div>
 	<div class="photo" data-file="photo/7/DSC01292.JPG" data-name="Долина р. Кекджар"></div>
-    <div class="photo" data-file="photo/7/DSC01292.JPG" data-name="Лагерь 8 в долине р. Кекджар"></div>
+    <div class="photo" data-file="photo/7/DSC01298.JPG" data-name="Лагерь 8 в долине р. Кекджар"></div>
 </div>
 </p>
 
@@ -920,8 +919,18 @@
     ветрам и взорам долина. Возле самого села тоже вряд-ли чего можно найти, кроме внимания любопытных жителей.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/8/DSC01390.JPG" data-name="В долине Кашка-Суу"></div>
+<div class="photo" data-file="photo/8/DSC01328.JPG" data-name="Перешли Кекджар"></div>
+<div class="photo" data-file="photo/8/DSC01332.JPG" data-name="Идем по долине Кекджар"></div>
+<div class="photo" data-file="photo/8/DSC01340.JPG" data-name="Коварные цветочные поля, задерживающие нескольких участников"></div>
+<div class="photo" data-file="photo/8/DSC01369.JPG" data-name="Долина р.Кекджар, впадающей в р. Кашка-Суу"></div>
+<div class="photo" data-file="photo/8/DSC01371.JPG" data-name="Тропа по правому борту долины р. Кашка-Суу"></div>
+    <div class="photo" data-file="photo/8/DSC01392.JPG" data-name="В долине Кашка-Суу"></div>
+	<div class="photo" data-file="photo/8/DSC01419.JPG" data-name="Живописная долина Кашка-Суу"></div>
     <div class="photo" data-file="photo/8/DSC01467.JPG" data-name="Мост через Кашка-Суу"></div>
+	<div class="photo" data-file="photo/8/DSC01470.JPG" data-name="Вид на север в обратную сторону с моста через Кашка-Суу"></div>
+	<div class="photo" data-file="photo/8/DSC01479.JPG" data-name="Дорога вдоль Кашка-Суу на левом берегу"></div>
+	<div class="photo" data-file="photo/8/DSC01492.JPG" data-name="Место нашего брода через Кашка-Суу и место лагеря 9"></div>
+	<div class="photo" data-file="photo/8/DSC01499.JPG" data-name="Лагерь 9"></div>
    </div>
 <p>
     Поэтому мы проходим 2 км по дороге, и опять переходим Кашка-Суу, на этот раз уже вброд. Пересекаем долину и выходим в боковое ущелье.
@@ -938,8 +947,9 @@
     для переезда на Заалайский хребет.
 </p>
 <div class=photo-block>
-    <div class="photo" data-file="photo/9/DSC01510.JPG" data-name="Вдоль правого берега р. Кашка-Суу"></div>
-    <div class="photo" data-file="photo/9/DSC01544.JPG" data-name="Выход к АЗС"></div>
+    <div class="photo" data-file="photo/9/DSC01510.JPG" data-name="Идем вдоль правого берега р. Кашка-Суу"></div>
+	<div class="photo" data-file="photo/9/DSC01534.JPG" data-name="Поселок Кашка-Суу"></div>
+    <div class="photo" data-file="photo/9/DSC01545.JPG" data-name="Выход к АЗС, откуда нас забирает машина"></div>
 </div>
 <span class="interval day">Расчет ходового времени, ЧХВ</span>
 
@@ -988,10 +998,14 @@
 потом отстают: они воспитанные, многие говорят по-русски, и чувство такта у них имеется. Мы же пересекаем овраг, потом второй,
     и находим удовлетворительное место стоянки на берегу ручья. Здесь делаем вторую полудневку и разбираем заброску.</p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/9/DSC01580.JPG" data-name="Выгружаемся после переезда"></div>
+    <div class="photo" data-file="photo/9/DSC01605.JPG" data-name="Разбираем вещи после переезда под пристальным вниманием детей"></div>
     <div class="photo" data-file="photo/9/DSC01617.JPG" data-name="Поле с юртами, на котором мы выгрузились"></div>
-    <div class="photo" data-file="photo/9/DSC01636.JPG" data-name="Уходим от кошей на другую сторону реки. Там гуляют коровы, но нет людей (кроме пастухов)"></div>
-    <div class="photo" data-file="photo/9/DSC01685.JPG" data-name="Лагерь 10"></div>
+	<div class="photo" data-file="photo/9/DSC01608.JPG" data-name="Очень любпытные и активные киргизские дети"></div>
+	<div class="photo" data-file="photo/9/DSC01634.JPG" data-name="Несколько мальчиков нас провожают до самого лагеря"></div>
+	<div class="photo" data-file="photo/9/DSC01685.JPG" data-name="Лагерь 10"></div>
+	<div class="photo" data-file="photo/9/DSC01727.JPG" data-name="Вернулись на поле с юртами, чтобы сходить в гости к киргизам"></div>
+    <div class="photo" data-file="photo/9/DSC01746.JPG" data-name="Зашли в гости, пообщались, угостились, зарядили немного батарейки и поменяли бензин на лепешки "></div>
+    <div class="photo" data-file="photo/9/DSC01797.JPG" data-name="Место лагеря 10. Там гуляют коровы, но нет людей (кроме пастухов)"></div>
 </div>
 <span class="day">3 августа</span>
 <p>
@@ -1000,8 +1014,12 @@
     Не сразу нашли эту точку, но gps не дал заблудиться. Ближе к обеду нас слегка окропило каким-то мелким градом.
 </p>
 <div class="photo-block">
- <div class="photo" data-file="photo/10/DSC01843.JPG" data-name="Поднимается по руслу реки"></div>
- <div class="photo" data-file="photo/10/DSC01856.JPG" data-name="Вид на долину и юрты, от которых мы вчера шли"></div>
+<div class="photo" data-file="photo/10/DSC01821.JPG" data-name="Солнечное утро 10-ого дня"></div>
+ <div class="photo" data-file="photo/10/DSC01835.JPG" data-name="Поднимается по руслу реки"></div>
+ <div class="photo" data-file="photo/10/DSC01843.JPG" data-name="Ищем брод через реку"></div>
+  <div class="photo" data-file="photo/10/DSC01857.JPG" data-name="Вид на долину и юрты, от которых мы вчера шли"></div>
+  <div class="photo" data-file="photo/10/DSC01871.JPG" data-name="Уходим в ущелье и поднимаемся выше"></div>
+  <div class="photo" data-file="photo/10/DSC01876.JPG" data-name="Движемся вдоль ручья, после чего завернем направо"></div>
 </div>
 <p>Долго и с сомнением разглядываем завтрашний путь. Путь с пересечением кулуара, по которому шел И. Пугаченко, выглядел очень непривлекательно и опасно. Безопасней
 подниматься по контрафорсу, но он состоит из очень мелкой осыпи, чередующейся со скальными выходами. Выдержим ли 700 м подъема по этому обратному эскалатору с полной загрузкой?
@@ -1010,7 +1028,7 @@
 </p>
 <div class="photo-block">
     <div class="photo" data-file="photo/10/DSC01893.JPG" data-name="Лагерь 11. Виден скально-осыпной контрафорс"></div>
-    <div class="photo" data-file="photo/10/DSC01901a.JPG" data-name="Верхняя часть скально-осыпного контрафорса (приближение)"></div>
+    <div class="photo" data-file="photo/10/DSC01900.JPG" data-name="Завтрашний путь по скально-осыпному контрафорсу"></div>
 </div>
 <span class="day">4 августа</span>
 <p>
@@ -1018,8 +1036,8 @@
     и пропиталась водой, стала вязкой и в ней хорошо формировались ступени. Скальные участки преодолевали без остановки, отдыхи делали на выполаживаниях.
  </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/11/DSC01962.JPG" data-name="Подъем по скально-осыпному контрафорсу"></div>
-    <div class="photo" data-file="photo/11/DSC02027.JPG" data-name="Подъем по скально-осыпному контрафорсу"></div>
+    <div class="photo" data-file="photo/11/DSC01962.png" data-name="Подъем по скально-осыпному контрафорсу"></div>
+    <div class="photo" data-file="photo/11/DSC02027.png" data-name="Подъем по скально-осыпному контрафорсу"></div>
 </div>
 <p>
  Выйдя на основной гребень, делаем разведку пути в обход жандарма. Путь находится, мы обходим жандарм слева и выходим на небольшую седловинку в основном гребне,
@@ -1027,17 +1045,17 @@
     После обеда вдруг выходит солнце, топит снег и превращает каменную кашу в некоторое подобие цемента. Стараемся поменьше пачкаться.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/11/DSC02128.JPG" data-name="В обход жандарма"></div>
+    <div class="photo" data-file="photo/11/Обход жандарма.png" data-name="В обход жандарма"></div>
     <div class="photo" data-file="photo/11/DSC02149.JPG" data-name="Лагерь 13"></div>
-    <div class="photo" data-file="photo/11/DSC02318.JPG" data-name="Вид с гребня перевала Чакманташ. Виден лагерь и путь подъема"></div>
-    <div class="photo" data-file="photo/11/DSC02384.JPG" data-name="Вид с гребня перевала Чакманташ. Виден лагерь и путь подъема"></div>
+    <div class="photo" data-file="photo/11/путь.png" data-name="Вид с гребня перевала Чакманташ. Виден лагерь и путь подъема"></div>
+    <div class="photo" data-file="photo/11/путь к лагерю.png" data-name="Вид с гребня перевала Чакманташ. Виден лагерь и путь подъема"></div>
 </div>
 <p>Немного выше места ночевки начинается снежно-ледовый участок склона крузитной около 35 градусов и длиной 2,5 - 3 веревки
     (<span class="photo-ref" data-file="photo/11/DSC02174.JPG"></span>) . Время у нас еще остается,
     поэтому решили обработать завтрашний маршрут. Веревки повесили на ледобурах, а после выхода на пологий участок еще и немного проротропили путь наверх.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/11/DSC02174.JPG" data-name="Гребень перевал Чакманташ, первый взлет"></div>
+    <div class="photo" data-file="photo/11/DSC02174.png" data-name="Гребень перевал Чакманташ, первый взлет"></div>
 </div>
 
 <span class="interval day">5 августа</span>
@@ -1056,8 +1074,8 @@
     Вот такие они, памирские перевалы.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/12/DSC02595.JPG" data-name="Обходим жандрам"></div>
-    <div class="photo" data-file="photo/12/DSC02621.JPG" data-name="Продолжаем путь по гребню. Виден следующий взлет, на котором провесили веревку"></div>
+    <div class="photo" data-file="photo/12/Обход жандарма2.png" data-name="Обходим жандрам"></div>
+    <div class="photo" data-file="photo/12/подъем по гребню.png" data-name="Продолжаем путь по гребню. Виден следующий взлет, на котором провесили веревку"></div>
 </div>
 <p>
     Примерно через час погода улучшилась. Связываемся и идем прямо вверх, на гребень Заалайского хребта. Выходим на срежный купол,
@@ -1065,8 +1083,8 @@
     Погода, тем временем, улучшается. Фотографируемся, любуемся видами.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/12/DSC02680.JPG" data-name="Последний участок подъема"></div>
-    <div class="photo" data-file="photo/12/DSC02706.JPG" data-name="Перевал Чакманташ, виден тур"></div>
+    <div class="photo" data-file="photo/12/DSC02680.png" data-name="Последний участок подъема"></div>
+    <div class="photo" data-file="photo/12/DSC02706.png" data-name="Перевал Чакманташ, виден тур"></div>
 </div>
 <p>
     В связках спускаемся по леднику, держимся левого борта, близ осыпи. Перед выходом на основную ветвь ледника Чакманташ
@@ -1076,7 +1094,7 @@
 </p>
 
 <div class="photo-block">
-    <div class="photo" data-file="photo/12/DSC02847.JPG" data-name="Путь спуска на основную ветвь ледника Чакманташ по осыпи"></div>
+    <div class="photo" data-file="photo/12/DSC02847.png" data-name="Путь спуска на основную ветвь ледника Чакманташ по осыпи"></div>
     <div class="photo" data-file="photo/12/DSC02861.JPG" data-name="Спуск к воде в лагере 14"></div>
 </div>
 <span class="day"> 6 августа</span>
@@ -1090,11 +1108,11 @@
     ледник в 500 м выше нашего пути.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/13/DSC02922.JPG" data-name="Ледник Чакманташ"></div>
-    <div class="photo" data-file="photo/13/DSC03001.JPG" data-name="Уходим к левому борту ледника"></div>
-    <div class="photo" data-file="photo/13/DSC03046.JPG" data-name="Путь через зачехленную часть"></div>
-    <div class="photo" data-file="photo/13/DSC03053.JPG" data-name="Возвращаемся на отрытый ледник"></div>
-    <div class="photo" data-file="photo/13/DSC03114.JPG" data-name="Ледопад ледника Чакманташ. Угадывается прямой путь."></div>
+    <div class="photo" data-file="photo/13/DSC02922.png" data-name="Ледник Чакманташ"></div>
+    <div class="photo" data-file="photo/13/DSC03001.png" data-name="Уходим к левому борту ледника"></div>
+    <div class="photo" data-file="photo/13/DSC03046.png" data-name="Путь через зачехленную часть"></div>
+    <div class="photo" data-file="photo/13/DSC03053.png" data-name="Возвращаемся на отрытый ледник"></div>
+    <div class="photo" data-file="photo/13/DSC03114.png" data-name="Ледопад ледника Чакманташ. Угадывается прямой путь."></div>
 </div>
 
 <span class="interval day">Расчет ходового времени, ЧХВ</span>
@@ -1141,9 +1159,9 @@
     Вода есть воду неподалеку (маленький ручеек, выбивающийся из-под камней). Встаем лагерем.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/13/DSC03066.JPG" data-name="Ушелье, ведущее к перевалу Конституции"></div>
-    <div class="photo" data-file="photo/13/DSC03125.JPG" data-name="Вид на ледник Чакманташ"></div>
-    <div class="photo" data-file="photo/13/DSC03128.JPG" data-name="Подъем вдоль правого борта долины"></div>
+    <div class="photo" data-file="photo/13/DSC03066.png" data-name="Ушелье, ведущее к перевалу Конституции"></div>
+    <div class="photo" data-file="photo/13/DSC03125.png" data-name="Вид на ледник Чакманташ"></div>
+    <div class="photo" data-file="photo/13/подъем по осыпи.png" data-name="Подъем вдоль правого борта долины"></div>
     <div class="photo" data-file="photo/13/DSC03161.JPG" data-name="Лагерь 15"></div>
 </div>
 
@@ -1202,7 +1220,7 @@
 Утром холодно, светит солнце. Делаем перевальную фотографию, которую не вышло сделать вчера из-за позднего времени и испортившейся погоды.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/15/DSC03772.JPG" data-name="Путь спуска по леднику Кузгун"></div>
+    <div class="photo" data-file="photo/15/15.1.jpg" data-name="Путь спуска по леднику Кузгун"></div>
     <div class="photo" data-file="photo/15/DSC03776.JPG" data-name="Группа на перевале Конституции"></div>
 </div>
 <p>
@@ -1211,9 +1229,9 @@
 в том, чтобы пройти закрытый ледник утром, по замерзшему снегу, и она удалась.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/15/DSC03786.JPG" data-name="Спуск по леднику Кузгун"></div>
+    <div class="photo" data-file="photo/15/15.3.jpg" data-name="Спуск по леднику Кузгун"></div>
     <div class="photo" data-file="photo/15/DSC03810.JPG" data-name="Уходим под правый борт ледника"></div>
-    <div class="photo" data-file="photo/15/DSC03820.JPG" data-name="Спуск по леднику Кузгун"></div>
+    <div class="photo" data-file="photo/15/15.5.jpg" data-name="Спуск по леднику Кузгун"></div>
     <div class="photo" data-file="photo/15/DSC03978.JPG" data-name="Спуск по леднику Кузгун"></div>
 </div>
 <p>
@@ -1224,7 +1242,7 @@
 </p>
 
 <div class="photo-block">
-    <div class="photo" data-file="photo/15/DSC04017.JPG" data-name="Проходим ниже ледопада к месту лагеря"></div>
+    <div class="photo" data-file="photo/15/15.7.jpg" data-name="Проходим ниже ледопада к месту лагеря"></div>
     <div class="photo" data-file="photo/15/DSC04032.JPG" data-name="Лагерь 17"></div>
 </div>
 <span class="interval day">Расчет ходового времени, ЧХВ</span>
@@ -1348,11 +1366,29 @@
 <a href="" class="collapsible" data-folder="16,17" >Фотоальбом</a>
 <h3 id="notrh-zaalay">Северные отроги Заалайского хребта</h3>
 <span class="day">11 августа</span>
-<p>Сегодня - полудневка, выходим на маршрут после обеда. Переходим реку по мосту проходим по дороге около километра и сворачиваем на тропу,
+<p>Сегодня - полудневка. Утром отдыхаем, заходим в гости в юрту к местным жителям, знакомимся, угощаемся лепешками со сметаной и дарим им сладости и бензин. С утра поздравляем Костю с Днем Рождения. Выходим на маршрут после обеда. Переходим реку по мосту проходим по дороге около километра и сворачиваем на тропу,
 ведущую к югу. После пятитысячных перевалов и отдыха хождение по траве доставляет особое удовольствие. Проходим мимо юрт, где нас еще угощают хлебом.
 В какой-то момент тропа становится не сильно выраженной, но это не мешает идти по травяным лугам. Под гребнем напротив перевала Цурюпы
     проходим луга с шелковой травой и родниковой водой, но нам надо было продвигаться вперед. Доходим до р. Катта-Бешик и встаем лагерем.
     Чистая вода есть в родниках на другой стороне ручья.
+	
+	</p>
+<div class="photo-block">
+    <div class="photo" data-file="photo/18/DSC05252.JPG" data-name="Полудневка утром."></div>
+    <div class="photo" data-file="photo/18/DSC05271.JPG" data-name="Налаживаем контакты с местными"></div>
+	<div class="photo" data-file="photo/18/DSC05281.JPG" data-name="В киргизской юрте. Наслаждаемся местным гостеприимством"></div>	
+    <div class="photo" data-file="photo/18/DSC05326.JPG" data-name="Выходим из лагеря после обеда"></div>
+	<div class="photo" data-file="photo/18/DSC05337.JPG" data-name="Идем по дороге"></div>
+	<div class="photo" data-file="photo/18/DSC05343.JPG" data-name="Проходим мимо кошей"></div>
+	<div class="photo" data-file="photo/18/DSC05364.JPG" data-name="И снова проходим через очередные коши"></div>
+	<div class="photo" data-file="photo/18/DSC05370.JPG" data-name="Местные очень полюбили с нами фоткаться"></div>
+	<div class="photo" data-file="photo/18/DSC05392.JPG" data-name="Идем дальше на юго-восток"></div>
+	<div class="photo" data-file="photo/18/DSC05425.JPG" data-name="Движемся в сторну ручья Катта-Бешик"></div>
+	<div class="photo" data-file="photo/18/DSC05427.JPG" data-name="Вид на заснеженные хребты на юге"></div>
+	<div class="photo" data-file="photo/18/DSC05452.JPG" data-name="Лагерь 19 у ручья Катта-Бешик"></div>
+</div>
+<p>
+	
 </p>
 <span class="day">12 августа</span>
 <p>
@@ -1402,9 +1438,34 @@
     Но, к сожалению, у нас уже не было времени на поиск пути через неизвестность, поэтому мы решили выходить назад в Алайскую долину.
 </p>
 <div class="photo-block">
-    <div class="photo" data-file="photo/20/DSC05961.JPG" data-name="Здесь можно попытаться пройти. Но фотография не предает масштаб."></div>
-    <div class="photo" data-file="photo/20/DSC06123.JPG" data-name="Р. Коман-Суу"></div>
-    <div class="photo" data-file="photo/20/DSC06135.JPG" data-name="Ледник Коман"></div>
+    <div class="photo" data-file="photo/20/DSC05920.JPG" data-name="Спускаемся вниз вдоль ледника Коман.Вид назад."></div>
+    <div class="photo" data-file="photo/20/DSC05939.JPG" data-name="Озадачены в поисках прохода через ледник Коман"></div>
+    <div class="photo" data-file="photo/20/DSC05953.JPG" data-name="Возможный путь прохода через Коман"></div>
+	<div class="photo" data-file="photo/20/DSC05962.JPG" data-name="Решаем отправиться на разведку"></div>
+	<div class="photo" data-file="photo/20/DSC05969.JPG" data-name="Устрашающие сераки"></div>
+	<div class="photo" data-file="photo/20/DSC05990.JPG" data-name="Человек в масштабах ледника"></div>
+	<div class="photo" data-file="photo/20/DSC06043.JPG" data-name="Ледник Коман и долина реки Коман-Суу"></div>
+	<div class="photo" data-file="photo/20/DSC06047.JPG" data-name="Бродим через приток Коман-Суу"></div>
+	<div class="photo" data-file="photo/20/DSC06072.JPG" data-name="Поднимаемся по левому борту долины Коман-Суу"></div>
+	<div class="photo" data-file="photo/20/DSC06101.JPG" data-name="Не очень правильно выбранный путь подъема по конгломерату"></div>
+	<div class="photo" data-file="photo/20/DSC06120.JPG" data-name="Вид на юг, верховья ледника Коман"></div>
+	<div class="photo" data-file="photo/20/DSC06124.JPG" data-name="Долина реки Коман-Суу. Вид на север в сторону Алайской долины"></div>
+	<div class="photo" data-file="photo/20/DSC06152.JPG" data-name="Поднимаемся на полку"></div>
+	<div class="photo" data-file="photo/20/DSC06250.JPG" data-name="Движемся на спуск по гребню"></div>
+	<div class="photo" data-file="photo/20/DSC06261.JPG" data-name="Вид назад. На юг в сторону хребтов"></div>
+	<div class="photo" data-file="photo/20/DSC06292.JPG" data-name="Мохнатые коровы"></div>
+	<div class="photo" data-file="photo/20/DSC06306.JPG" data-name="Договариваемся с встреченным пастухом о машине"></div>
+	<div class="photo" data-file="photo/20/DSC06338.JPG" data-name="Спускаемся по долине вниз"></div>
+	<div class="photo" data-file="photo/20/DSC06352.JPG" data-name="Переходим в долину Кунгыр-Суу"></div>
+	<div class="photo" data-file="photo/20/DSC06365.JPG" data-name="Один из редких бродов в этом походе"></div>
+	<div class="photo" data-file="photo/20/DSC06376.JPG" data-name="Угощаемся лепешкой в местном коше"></div>
+	<div class="photo" data-file="photo/20/DSC06393.JPG" data-name="Наш портер"></div>
+	<div class="photo" data-file="photo/20/DSC06453.JPG" data-name="Нельзя просто взять и не проехать мимо коша, чтобы не поесть лепешек"></div>
+	<div class="photo" data-file="photo/20/DSC06525.JPG" data-name="Едем в цивилизацию"></div>
+	
+	
+	
+	
 </div>
 
 <p>
@@ -1432,6 +1493,32 @@
 </table>
 
 <a href="" class="collapsible" data-folder="19,20" >Фотоальбом</a>
+</p>
+<span class="day">ВЫВОДЫ</span>
+<p>
+
+- Поход получился очень красивый, насыщенный и спортивный. Район Заалая очень понравился, рекомендуем!
+</p>
+- Выбранный маршрут дает редкую возможность совершить поход 4 к.с на Памире, повысить высотный опыт и увидеть те самые восхитительные Большие Горы!
+<p>
+- За счет того, что летом этого года (2021) в горах выпало очень много снега, поход был не очень техничным - многое проходилось ногами, там где другие группы до этого вешали веревки.
+При этом в августе снега уже нападало меньше, чем в июле, погода улучшилась, поэтому особой лавиноопасности на наших перевалах, к счастью, не наблюдали. 
+<p>
+ - Поход получился довольно высоким и снежным, с очень быстрым набором высоты и жесткой акклиматизацией вначале. 
+<p>
+ - Выражаем отдельную благодарность Игорю Пугаченко за отличный подробный отчет о его походе 2019 г, которым мы часто пользовались!
+ <p>
+ <p>
+ Далее комментарий от медика:
+ <p>
+ - Стоит обратить внимание, что воду из естественных водоемах в подобных районах лучше обеззараживать вплоть до ледников (таблетками или кипячением), так как внизу пасется довольно много скота.
+ <p>
+ - Наученные печальным опытом группы Игоря Пугаченко, мы не стали питаться в поселках во время переездов и избежали проблем с животом. Поэтому также всем советуем воздержаться от гастрономических благ цивилизации во время похода!
+ <p>
+ - Если планируется такая же жесткая акклиматизация, то стоит заранее запастить побольше диакарбом и средствами экстренной помощи от отека легких/мозга
+ <p>
+ - На удивление, двое участников, которые перенесли ковид незадолго до похода, нормально перенесли высоту и акклиматизацию. 
+ 
 
 <div style="width: 400px; height: 50px; border-bottom: solid; margin: auto; border-width: 1px"></div>
 
