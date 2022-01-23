@@ -40,7 +40,7 @@ function initCollapsiblePhotoAlbums(photoIndex) {
                     const img = document.createElement("img");
                     img.className = "photo-full-img"
                     img.alt = photoTitle;
-                    img.src = data["url"];
+                    img.setAttribute("data-src", data["url"]);
                     photo.appendChild(img);
                     const title = document.createElement("div");
                     title.innerHTML = photoTitle;
