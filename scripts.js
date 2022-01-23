@@ -145,7 +145,7 @@ function initPhotosFromIcons() {
         a.href = url;
         const img = document.createElement("img");
         img.className = "photo-icon-img";
-        img.src = url.replace("photos/","photo/preview/");
+        img.src = url.replace("photo","preview");
         img.title = data["name"];
         photo.appendChild(a);
         a.appendChild(img);

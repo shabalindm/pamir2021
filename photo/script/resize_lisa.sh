@@ -1,13 +1,9 @@
 for directory in /git/pamir2021/photo/*
 do
+#  mkdir ${directory/photo/preview}
   for file in $directory/*.JPG
   do
-    mysize=$(find "$file" -printf "%s")
-  if [ $mysize -gt 1000000 ] #[$mysize -gt 10000000]
-  then
-      echo $file
-      convert $file -resize 60% $file
-  fi
+     convert $file -resize x90 ${file/photo/preview}
 
   done
 done
