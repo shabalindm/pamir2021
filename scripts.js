@@ -1,57 +1,7 @@
 initModal()
-const photoIndex = initPhotosFromIcons();
-initCollapsiblePhotoAlbums(photoIndex);
-initPhotoRef(photoIndex)
 initCollapsible()
 
-function initCollapsiblePhotoAlbums(photoIndex) {
-    const colls = Array.from(document.getElementsByClassName("collapsible"));
-    colls.forEach(
-        coll => {
-            const content = document.createElement("div");
-            content.style.display = "none";
-            coll.parentNode.insertBefore(content, coll.nextSibling);
-            const folders = coll.dataset["folder"].split(",");
-            folders.forEach((folder) => {
-                let photoList = photoIndex[folder]["list"];
-                let fromIndex = 0;
-                let toIndex = photoList.length;
-                const from = coll.dataset["from"];
-                if(from){
-                    let i = photoList.indexOf(from);
-                    if(i>0) {
-                        fromIndex = i;
-                    }
 
-                }
-                const to = coll.dataset["to"];
-                if(to){
-                    let i = photoList.indexOf(to);
-                    if(i>=0) {
-                        toIndex = i + 1;
-                    }
-                }
-                photoList.slice(fromIndex, toIndex).forEach((file) => {
-                    const data = photoIndex[folder][file];
-                    const photoTitle = "Фото " + data["num"] + ". " + data["name"];
-                    const photo = document.createElement("div");
-                    photo.className = "photo-full";
-                    content.appendChild(photo);
-                    const img = document.createElement("img");
-                    img.className = "photo-full-img"
-                    img.alt = photoTitle;
-                    img.setAttribute("data-src", data["url"]);
-                    photo.appendChild(img);
-                    const title = document.createElement("div");
-                    title.innerHTML = photoTitle;
-                    photo.appendChild(title);
-
-                });
-            })
-
-        }
-    )
-}
 
 function initCollapsible(){
     const colls = Array.from(document.getElementsByClassName("collapsible"));
@@ -80,25 +30,6 @@ function initCollapsible(){
 
 
 
-function initPhotoRef(photoIndex) {
-    const spans = Array.from(document.getElementsByClassName("photo-ref"));
-    spans.forEach(
-        span => {
-            let url = span.dataset["file"];
-            const parts = url.split("/");
-            const folder = parts[parts.length - 2];
-            const file = parts[parts.length - 1];
-            let data = photoIndex[folder][file];
-
-            const a = document.createElement("a");
-            a.href = data["url"];
-            a.innerHTML = "фото " + data["num"];
-            span.appendChild(a);
-            a.setAttribute("onclick", "openPhotoModal(" + JSON.stringify(data)+"); return false");
-        }
-    )
-
-}
 
 
 function initModal() {
@@ -118,50 +49,7 @@ function initModal() {
     }
 }
 
-/**
- *
- * @returns
- */
-function initPhotosFromIcons() {
-   const photoIndex = []
-    Array.from(document.getElementsByClassName("photo")).forEach(photo => {
-        let url = photo.dataset["file"];
-        const parts = url.split("/");
-        const folder = parts[parts.length - 2];
-        const file = parts[parts.length - 1];
 
-        if(!photoIndex[folder]){
-            photoIndex[folder] = [];
-            photoIndex[folder]["list"] = []
-        }
-        if(!photoIndex[folder][file]){
-            photoIndex[folder]["list"].push(file);
-            const num =  photoIndex[folder]["list"].length;
-            photoIndex[folder][file] = {"num": folder + "."  + num, "name":  photo.dataset["name"], "url": url}
-        }
-
-        let data = photoIndex[folder][file];
-        const a = document.createElement("a");
-        a.href = url;
-        const img = document.createElement("img");
-        img.className = "photo-icon-img";
-        img.src = url.replace("photo","preview");
-        img.title = data["name"];
-        photo.appendChild(a);
-        a.appendChild(img);
-        const div = document.createElement("div");
-        div.className = "photo-num";
-        let num = data["num"];
-        div.innerHTML = num;
-        photo.appendChild(div);
-
-        a.setAttribute("onclick", "openPhotoModal(" + JSON.stringify(data)+"); return false");
-
-        photo.removeAttribute("data-file");
-        photo.setAttribute("data-num",  num)
-    });
-    return photoIndex;
-}
 
 function openPhotoModal(data){
     // Get the modalContainer
